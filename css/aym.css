@@ -1,0 +1,117 @@
+*{
+    text-align: center;
+}
+.todo{
+    width: 80%;
+    background-color: rgb(248, 249, 249);
+    margin-left: 10%;
+    margin-top: 25px;
+    border: 3px solid black;
+    padding-top: 10px;
+}
+.encabezado{
+    display: flex;
+
+}
+.logo{
+    width: 20%;
+    margin-left: 10px;
+}
+.linkss{
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 30px;
+}
+.linkss a:hover{
+    background-color: rgb(53, 85, 245);
+    color: white;
+    padding: 10px;
+}
+.links{
+    margin-left: 6%;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+.portada{
+    width: 100%;
+}
+.nuestros{
+    background-color: rgb(151, 216, 151);
+    padding-top: 30px;
+}
+.nuestros h2, p{
+    margin-top: -10px;
+}
+.imagenes-servicio1, .imagenes-servicio2, .imagenes-servicio3{
+    width: 25%;
+    padding-bottom: 15px; 
+}
+.texto{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+.formulario{
+    background-color: rgb(151, 216, 151);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.barra{
+    padding: 5px;
+    width: 40%;
+    text-align: left;
+}
+.formulario ::placeholder{
+    color: rgb(25, 114, 25);
+}
+.comentarios{
+    padding-bottom: 50px;
+}
+.enviar{
+    padding: 5px;
+    width: 25%;
+    border-radius: 20px;
+    background: rgb(0, 47, 255);
+    color: white;
+    border: 0;
+
+}
+footer {
+    background-color: rgb(0, 51, 0);
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logofooter{
+    width: 30%;
+    padding: 5%;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.divenlaces{
+    width: 35%;
+    text-align: left;
+    color: white;
+}
+.divenlaces a{
+    text-decoration: none;
+    color: white;
+}
+.divenlaces a:hover{
+    color: red;
+}
+.facebook{
+    width: 10%;
+    text-align: left !important;
+    border-radius: 5px;
+}
+.seguir{
+    text-align: left;
+    color: white;
+}
+.sigue{
+    width: 30%;
+}
